@@ -17,7 +17,10 @@ gem 'puma', '~> 5.0'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Personal GEMS
+gem 'devise'
+gem 'devise_token_auth'
 gem 'rubocop', require: false
+gem "rails_best_practices"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
