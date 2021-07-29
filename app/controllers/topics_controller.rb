@@ -7,7 +7,7 @@ class TopicsController < ApplicationController
 
     render json: @topics
   end
-
+=begin
   # GET /topics/1
   def show
     render json: @topic
@@ -48,4 +48,5 @@ class TopicsController < ApplicationController
     def topic_params
       params.require(:topic).permit(:name, :image)
     end
+=end
 end
